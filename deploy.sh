@@ -1,8 +1,8 @@
 #!/bin/bash
 cd gatsby-site
-npm build
+npm run build
 cd ../cra-site
-npm build
+npm run build
 # rm -rf ../gatsby-site/public/cra
 mv build ../gatsby-site/public/cra
 cd ../gatsby-site
